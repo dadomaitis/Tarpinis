@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  outline: 1px solid red;
+}
+
+nav {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+
+    p {
+      display: flex;
+      align-items: center;
+      margin-left:  200px;
+      font-size: 1.2em;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1em;
+      margin-right:  200px;
+      background: #007bff;
+      color: white;
+      height: 38px ;
+      width: 70px;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+
+    }
+}
+
+header {
+  width: 100%;
+  height: 575px;
+  background: url(../images/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    h1 {
+      width: 55%;
+      text-align: center;
+      font-size: 3em;
+    }
+
+    #email {
+      width: 470px;
+      height: 47px;
+      border: none;
+      border-radius: 5px;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 1.2em ;
+    }
+
+    button {
+      background: #007bff ;
+      color: white;
+      border: none;
+      width: 150px;
+      height: 47px;
+      border-radius: 5px;
+      margin: 6px;
+      font-size: 1.25em ;
+    }
+    
+}
+
+.aft-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    .icon {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p{
+        margin: 20px;
+        width: 82%;
+        text-align: center;
+        color: gray;
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+    }
+
+  svg {
+    margin: 20px;
+    width: 65px;
+    height: 65px;
+  }
+}
+
