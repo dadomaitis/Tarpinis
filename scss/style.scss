@@ -43,7 +43,7 @@ nav {
 
 header {
   width: 100%;
-  height: 575px;
+  height: 600px;
   background: url(../images/bg-masthead.jpg);
   background-size: cover;
   background-position: center;
@@ -52,6 +52,13 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+    &:after {
+      z-index: 1;
+      background: rgba(128, 128, 128, 0.87);
+      background-size: cover;
+    }
+
     h1 {
       width: 55%;
       text-align: center;
@@ -86,7 +93,8 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    padding: 100px 0 100px 0;
+    background: #f8f9fa;
 
     .icon {
       width: 25%;
@@ -102,6 +110,7 @@ header {
         color: gray;
         font-size: 1.2em;
         font-weight: 200;
+        line-height: 30px;
       }
     }
 
@@ -112,3 +121,44 @@ header {
   }
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row;
+  align-items: center;
+  
+
+  .square {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      display: grid;
+      justify-content: start;
+      text-align: left;
+      font-size: 1.9em;
+    }
+
+    p {
+      width: 510px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      margin-top: 10px;
+      color: gray;
+      font-size: 1.2em;
+      font-weight: 200;
+      line-height: 30px;
+    }
+  }
+  
+
+
+
+  img {
+    width: 100%;
+  }
+}
