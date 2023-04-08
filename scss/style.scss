@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  outline: 1px solid red;
+  // outline: 1px solid red;
 }
 
 nav {
@@ -160,5 +160,54 @@ main {
 
   img {
     width: 100%;
+  }
+}
+
+.aft-main {
+  background: #f8f9fa;
+
+  .coments {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 0 100px 0;
+  
+  }
+
+  .com {
+    text-align: center;
+    padding: 200px 0 0 0 ; 
+    font-size: 2em;
+  }
+
+  .icon {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    p{
+      margin: 20px;
+      width: 82%;
+      text-align: center;
+      font-size: 1em;
+      font-weight: 200;
+      line-height: 25px;
+      color: rgb(45, 45, 45);
+    }
+  }
+
+  img{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 0 4px 6px;
   }
 }
