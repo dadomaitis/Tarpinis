@@ -1,0 +1,43 @@
+.aft-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    background: $aft-backg ;
+
+    .icon {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p{
+        margin: 20px;
+        width: 82%;
+        text-align: center;
+        color: $text;
+        font-size: 1.2em;
+        font-weight: 200;
+        line-height: 30px;
+      }
+    }
+
+  svg {
+    margin: 20px;
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 426px) {
+  .aft-header {
+    flex-direction: column;
+    width: 100%;
+
+    .icon {
+      width: 85%;
+    }
+  }
+}
