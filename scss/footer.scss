@@ -16,8 +16,15 @@ footer {
   
         a {
           text-decoration: none;
-          padding: 0 10px 0 10px;
+          padding: 0 10px 2px 10px;
           color: $blue ;
+
+          &:hover {
+            transform: scale(1.1);
+            color: white;
+            background: $blue;
+            border-radius: 8px;
+          }
         }
       }
     
@@ -42,6 +49,14 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
       width: 8%;
       margin-right: 200px;
+
+      svg {
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.2);
+        }
+      }
   
       .ic:nth-last-of-type(2) {
         width: 160%;

@@ -28,6 +28,13 @@ nav {
         border: none;
         padding: 10px;
         border-radius: 4px;
+
+        &:hover {
+          cursor: pointer;
+          background: white;
+          color: $blue;
+          border: 2px solid $blue;
+        }
   
       }
   }

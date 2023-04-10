@@ -35,6 +35,14 @@ header, header-2 {
         border-radius: 5px;
         margin: 6px;
         font-size: 1.25em ;
+
+        &:hover {
+          cursor: pointer;
+          background: white;
+          color: $blue;
+          border: 2px solid $blue;
+        }
+  
       }
       
   }
